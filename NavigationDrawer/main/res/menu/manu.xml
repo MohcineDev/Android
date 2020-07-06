@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/ic_apps_black_24dp"
+            android:title="About" />
+        <item
+            android:id="@+id/mail"
+            android:icon="@drawable/ic_cloud_download_black_24dp"
+            android:title="Email" />
+        <item
+            android:id="@+id/two"
+            android:icon="@drawable/ic_forward_black_24dp"
+            android:title="two" />
+        <item
+            android:id="@+id/exit"
+            android:icon="@drawable/ic_beach_access_black_24dp"
+            android:title="Exit" />
+
+    </group>
+
+    <item android:title="Others">
+        <menu>
+            <item
+                android:id="@+id/sun"
+                android:icon="@drawable/sun"
+                android:title="Sun" />
+            <item
+                android:id="@+id/location"
+                android:icon="@drawable/ic_edit_location_black_24dp"
+                android:title="Location" />
+            <item
+                android:id="@+id/shipping"
+                android:icon="@drawable/ic_local_shipping_black_24dp"
+                android:title="Shipping" />
+
+        </menu>
+    </item>
+
+</menu>
