@@ -1,0 +1,9 @@
+- update dependencies implementation 'com.google.android.material:material:1.0.0'
+- add menu file
+- add BottomNavigationView and FrameLayout to activity_main
+- add new layout resource file 'location'
+- add new java class , for superClass 'androidx.fragment.app.Fragment', override the methode 'onCreateView'
+-
+-
+
+
