@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/home"
+        android:title="@string/home"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/facebook"
+        android:icon="@drawable/fb"
+        android:title="@string/facebook"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/about"
+        android:title="@string/about"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/mail"
+        android:title="@string/email"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/exit"
+        android:title="@string/exit"
+        app:showAsAction="ifRoom"/>
+
+
+</menu>
