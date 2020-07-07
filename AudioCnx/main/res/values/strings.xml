@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">My Audio Cnx</string>
+
+    <string-array name="Title">
+        <item>Sound One</item>
+        <item>Sound Two</item>
+    </string-array>
+
+    <string-array name="imgs">
+        <item>https://ia801708.us.archive.org/7/items/Khalid_aljalil_mp3/khalid.jpg</item>
+        <item>https://ia801708.us.archive.org/7/items/Khalid_aljalil_mp3/khalid.jpg</item>
+    </string-array>
+
+    <string-array name="sound">
+        <item>https://ia801708.us.archive.org/7/items/Khalid_aljalil_mp3/021.mp3</item>
+        <item>https://ia801708.us.archive.org/7/items/Khalid_aljalil_mp3/108.mp3</item>
+    </string-array>
+
+</resources>
